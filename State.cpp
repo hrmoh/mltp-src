@@ -1,0 +1,27 @@
+// State.cpp: implementation of the CState class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "MLTP.h"
+#include "State.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CState::CState()
+{
+  isFinal=FALSE;
+}
+
+CState::~CState()
+{
+
+}
